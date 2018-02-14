@@ -1,1 +1,10 @@
 language: node_js
+deploy:
+  provider: elasticbeanstalk
+  access_key_id: "AKIAIZHK6ZKHZH7JCBBQ"
+  secret_access_key:
+    secure: "Encypted <secret-access-key>= "lwnPp19lwAGqwX/4KI7PBVJgcU4sq/K/hARGXYj1+8b1Um+QcjnhAtqpnp990jWyBBbiT3oij52Jlmr+XnAu1F29vqEUxAMYkaHHNSKg+gcGODsVgiFHhzyrVpmxPzKE+/kNUbHo0/q/aLmzTPAxx1RZ+MLJF9IWQdXqdur9X+BGne2Sl8k+QrKfxGx/anezXufSG1uCpm2QBOP1I0rDnMpA0pfskCPT5m6lvhCh3m33U7RG5L5rFihqI5vUaLq5nWlYxGSpQNsiYKUUdgvYzl4GH2KL3yJB2nT4py9sTVxKjiwlWjjPp3C4HoBkh5GIR+4CBIUX1Yib0dQeVUje5hBtQUIpynZfZGmtDizIi2NnVazY6rYXgdy6Vo1RPOCDX+V3fY3EvpMLanVS0EXO1+nyKIFOXQnOM4Lui5G9oqrXZ9WY0Xnxkxd3q0abzl6dzs082cFMN/yhaKCZKRosm3V1UFLjZ46YqiCcWPhHLKhdDeiIxSnfRcf8KDHpMLTBi0OOOoZbKXxWolMaI0UisefsSquuw9tjCjg6q09d7C/1HXKyD0x+HfOBwNiaz/Obm7UzMxY89DfyP1k6GDvPmInJIYk7kfUWtDwlwS4431vfYNDYkuEsCtG+FSO2FdqfP9QTuEZ5jnxDa+XRxlZzbwHpDR9AzNNak5nCWyc9WK8=""
+  region: "ap-northeast-2"
+  app: "blake_test"
+  env: "blakeTest-env"
+  bucket_name: "elasticbeanstalk-ap-northeast-2-326849127448"
